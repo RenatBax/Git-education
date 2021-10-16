@@ -124,6 +124,23 @@ return shell_exec("echo $imput | $markdown_script")
 
 Если внутри кода есть апостроф, то его нужно заключить в двойной аростроф ``<html class= "ie(`) no-js">``
 
+>_Ссылки_
+
+[ссылка] (http://gb.ru)
+
+[ссылка с title элементом] (http://example.com/link "я ссылка")
+
+[1]: http://examle.com/ "Optional Title Here"
+
+[2]: http://examle.com/some
+
+[3]: http://examle.com/ (Optional Title Here)
+
+![Картинка] (Снимок экрана (1).png)
+
+
+
+------
 
 
 
