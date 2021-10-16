@@ -126,28 +126,22 @@ return shell_exec("echo $imput | $markdown_script")
 
 >_Ссылки_
 
-[ссылка] (http://gb.ru)
+_Примеры встроенной ссылки_
 
-[ссылка с title элементом] (http://example.com/link "я ссылка")
+со встроенным заглавием
 
-[1]: http://examle.com/ "Optional Title Here"
+[Амундсен Руаль] (https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0 "https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D1%83%D0%BD%D0%B4%D1%81%D0%B5%D0%BD,_%D0%A0%D1%83%D0%B0%D0%BB%D1%8C")
 
-[2]: http://examle.com/some
+без заглавия
 
-[3]: http://examle.com/ (Optional Title Here)
+[Википедия] (https://ru.wikipedia.org/wiki/)
+
+
+[https://gb.ru/courses/geekschool "Школьникам"]
+[https://gb.ru/courses/geekschool]
+[https://gb.ru/courses/geekschool (Школьникам)]
 
 ![картинка](123.png)
-
-
-
-
-
-
-
-
-
-
-
 
 ------
 
